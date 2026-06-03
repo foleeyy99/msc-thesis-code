@@ -7,10 +7,10 @@ The purpose of this analysis was to determine whether the older PITG_01069 annot
 
 ## Input files
 
-* `PITG_01069.txt`: PITG_01069 protein sequence in FASTA format.
-* `protein.faa`: predicted protein FASTA from the Matson et al. (2022) P. infestans assembly, downloaded from NCBI.
+* PITG_01069.txt: PITG_01069 protein sequence in FASTA format.
+* protein.faa: predicted protein FASTA from the Matson et al. (2022) P. infestans assembly, downloaded from NCBI.
 
-The full `protein.faa` file is not included in this repository. It is publicly available from NCBI under Bioproject PRJNA868814.
+The full protein.faa file is not included in this repository. It is publicly available from NCBI under Bioproject PRJNA868814.
 
 ## Software setup
 
