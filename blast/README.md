@@ -3,7 +3,7 @@
 This folder contains the command and output used to cross reference the PITG_01069 protein sequence against the predicted protein FASTA from the Phytophthora infestans assembly reported by Matson et al. (2022).
 The purpose of this analysis was to determine whether the older PITG_01069 annotation has corresponding protein models in the updated Matson et al. proteome, and whether any obvious additional full-length IP3R-like homologues were apparent.
 
-# Note: These workflows were designed and executed on MacOS Version 15.7.4.
+### Note: These workflows were designed and executed on MacOS Version 15.7.4.
 
 ## Input files
 
