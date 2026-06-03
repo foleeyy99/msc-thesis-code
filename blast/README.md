@@ -26,6 +26,7 @@ blastp -version
 ## BLASTP Command 
 
 The search was performed in query vs subject mode. This directly compares the PITG_01069 protein FASTA file against the Matson et al. predicted protein FASTA file. 
+The following code is availble in the blast repository branch as "run_pitg01069_vs_matson_plastp.sh"
 
 blastp \ 
 -query PITG_01069.txt \ 
