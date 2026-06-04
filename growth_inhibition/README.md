@@ -18,6 +18,12 @@ Raw and processed data files are not included in this repository. The scripts ar
 
 Because the raw Excel workbook and processed CSV files are not included, the scripts are not directly executable from the repository alone without the original local data files.
 
+## Expected local project structure
+
+The scripts were originally run from a local R project. In that project, the scripts were stored in a `scripts` folder, raw Excel files were stored in a `data_raw` folder, processed outputs were written to a `data_processed` folder, and exported figures were saved to a `figs` folder.
+
+`In order for the pipeline to work, the folder structure above must be present on the local device`
+
 ## Script order
 
 The scripts were run in the following order:
@@ -29,30 +35,17 @@ The scripts were run in the following order:
    Performs an initial inspection of the raw Excel workbook containing colony-diameter measurements.
 
 3. `02_clean_diameters.R`
-   Cleans the raw diameter workbook, separates treatment blocks, standardises variables, flags outliers and creates analysis-ready datasets.
+   Cleans the raw diameter workbook, separates treatment blocks, flags outliers and creates clean datasets.
 
 4. `03_growth_curves.R`
-   Generates colony growth curves showing diameter over time for each isolate and treatment.
+   Generates colony growth curves showing diameter over time for each isolate and treatment (Supplementary Figures of Thesis Document).
 
 5. `04_maximal_growth_stats.R`
-   Performs day-12 maximal-growth statistical analysis using the processed dataset.
+   Performs day-12 maximal-growth statistical analysis using the clean dataset.
 
 6. `05_maximal_growth_plot.R`
    Generates the day-12 maximal-growth bar plot, including mean colony diameter, standard deviation and significance annotations.
 
-## Expected local project structure
-
-The scripts were originally run in a local R project with the following structure:
-
-```text
-growth_inhibition_project/
-├── scripts/
-├── data_raw/
-├── data_processed/
-└── figs/
-```
-
-The GitHub repository contains the `scripts/` folder and exported figures only.
 
 ## Software
 
