@@ -22,7 +22,7 @@ Because the raw Excel workbook and processed CSV files are not included, the scr
 
 The scripts were originally run from a local R project. In that project, the scripts were stored in a `scripts` folder, raw Excel files were stored in a `data_raw` folder, processed outputs were written to a `data_processed` folder, and exported figures were saved to a `figs` folder.
 
-`In order for the pipeline to work, the folder structure above must be present on the local device`
+In order for the pipeline to work, the folder structure above must be created on the local device.
 
 ## Script order
 
