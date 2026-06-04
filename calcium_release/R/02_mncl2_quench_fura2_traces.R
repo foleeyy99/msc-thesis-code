@@ -10,7 +10,7 @@
 # install.packages(c("tidyverse", "here"))
 
 library(tidyverse)
-library(here)    # for project-safe paths
+library(here)    
 
 
 ## ------------------------------------------------------------
@@ -118,12 +118,9 @@ theme_fura <- function(base_size = 13) {
     )
 }
 # ------------------------------------------------------------
-# Plot: MnCl2 quenching traces
+# Plot: MnCl2 quench traces
 # ------------------------------------------------------------
 
-# ------------------------------------------------------------
-# Plot: MnCl2 quenching traces (minimal version for PowerPoint)
-# ------------------------------------------------------------
 
 mncl_time <- 56  # adjust if MnCl2 was added at a different time
 
@@ -142,7 +139,7 @@ p_mncl <- ggplot(
     linewidth  = 0.5
   ) +
   
-  # Text label for MnCl2 (kept, since it's informative)
+  # Text label for MnCl2 
   annotate(
     "text",
     x     = mncl_time,
@@ -157,7 +154,7 @@ p_mncl <- ggplot(
   # Raw trace lines (all samples in one panel)
   geom_line(linewidth = 0.54, alpha = 1) +
   
-  # REMOVE main title and axis titles (you'll add them in PowerPoint)
+  # REMOVE main title and axis titles
   labs(
     x     = NULL,
     y     = NULL,
@@ -172,14 +169,14 @@ p_mncl <- ggplot(
     expand       = expansion(mult = c(0, 0))
   ) +
   
-  # Y axis: customise as you like; this is a reasonable range
+  # Y axis
   scale_y_continuous(
     limits       = c(0.5, 1.25),
     breaks       = seq(0.5, 1.2, by = 0.1),
     minor_breaks = seq(0.5, 1.2, by = 0.05)
   ) +
   
-  # Colours for each sample, but NO legend
+  # Colours for each sample
   scale_colour_manual(
     values = c(
       "Sample 1" = "#00b060",  # green
