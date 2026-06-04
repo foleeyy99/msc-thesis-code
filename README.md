@@ -4,9 +4,7 @@ This repository contains small scripts and outputs associated with the thesis do
 
 ## Contents
 
-1. blast
-
-Local BLASTP cross-reference of PITG_01069 against the predicted proteome from the chromosome-scale Phytophthora infestans assembly reported by Matson et al. (2022).
+1. blast = Local BLASTP cross-reference of PITG_01069 against the predicted proteome from the chromosome-scale Phytophthora infestans assembly reported by Matson et al. (2022).
 
 
 Large public datasets are not included directly. Where relevant, source information and commands are provided in the relevant folder.
