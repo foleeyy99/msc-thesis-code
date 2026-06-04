@@ -12,7 +12,7 @@ diam_analysis_path <- here::here("data_processed", "diam_analysis.csv")
 diam_clean    <- readr::read_csv(diam_clean_path, show_col_types = FALSE)
 diam_analysis <- readr::read_csv(diam_analysis_path, show_col_types = FALSE)
 
-# Quick sanity checks
+# Quick checks
 glimpse(diam_analysis)
 dplyr::count(diam_analysis, compound)
 dplyr::count(diam_analysis, compound, conc_uM)
