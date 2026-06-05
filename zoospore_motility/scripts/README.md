@@ -1,3 +1,5 @@
 # Scripts
 
-This folder contains R scripts used for zoospore motility data cleaning, statistical analysis and figure generation.
+This folder contains R scripts used for zoospore motility data processing, statistical analysis and figure/table generation.
+
+Scripts should be read in numerical order from `00_packages.R` to `07_stats_tables.R`. A full description of the workflow is provided in the main `zoospore_motility/README.md`.
