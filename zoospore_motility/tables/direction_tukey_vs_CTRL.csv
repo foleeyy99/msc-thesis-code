@@ -1,0 +1,6 @@
+Contrast,Difference,Lower_95_CI,Upper_95_CI,Adjusted_p
+DMSO vs CTRL,-0.103,-0.345,0.139,0.711
+IS6 vs CTRL,-0.388,-0.63,-0.146,0.00174
+MZB vs CTRL,-0.598,-0.84,-0.357,2.92e-5
+U73122 vs CTRL,-0.511,-0.753,-0.269,1.41e-4
+U73433 vs CTRL,0.043,-0.198,0.285,0.989

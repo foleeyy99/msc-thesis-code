@@ -1,0 +1,3 @@
+Term,df,Sum_sq,Mean_sq,F_value,p_value
+Between groups (treatment),5,119894.93,23978.99,262.54,8.01e-12
+Within groups (residual),12,1096.01,91.33,NA,NA
