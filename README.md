@@ -10,12 +10,16 @@ Local BLASTP cross-reference of PITG_01069 against the predicted proteome from t
 
 ### `calcium_release/`
 
-R scripts and exported figures associated with Fura-2-dextran calcium-release assay analysis in permeabilised *Phytophthora infestans* hyphal preparations.
+R scripts and exported figures associated with Fura-2-dextran calcium release assay analysis in permeabilised *Phytophthora infestans* hyphal preparations.
 
 ### `growth_inhibition/`
 
-R scripts and exported figures associated with the in-plate *Phytophthora infestans* growth-inhibition assay used to assess the effect of myo-inositol hexasulphate hexapotassium salt (IS6) on hyphal growth.
+R scripts and exported figures associated with the in-plate *Phytophthora infestans* growth inhibition assay used to assess the effect of myo-inositol hexasulphate hexapotassium salt on hyphal growth.
+
+### `zoospore_motility/`
+
+R scripts, exported figures and statistical summary tables associated with *Phytophthora infestans* zoospore motility assays. This folder documents the workflow used to process manually tracked zoospore trajectories, import ibidi Chemotaxis and Migration Tool outputs, perform statistical analyses, and generate velocity and directionality plots.
 
 ## Data availability
 
-Large public datasets, raw experimental data files and processed data files are not included directly unless explicitly stated within the relevant subfolder. Where relevant, source information, analysis scripts, commands and selected exported outputs are provided in the appropriate folder.
+Large public datasets, raw experimental data files, raw videos, raw tracking files and processed intermediate data files are not included directly unless explicitly stated within the relevant subfolder. 
